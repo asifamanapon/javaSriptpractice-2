@@ -1,6 +1,6 @@
 function  sumofNumbers(number) {
     var sum = 0;
-    for (i = 1; i <= 7; i++){
+    for (i = 1; i <= number.length; i++){
         sum = sum + i;
         console.log(sum, i);
 
